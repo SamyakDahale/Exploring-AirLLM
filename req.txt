@@ -1,0 +1,9 @@
+huggingface_hub
+streamlit
+airLLM
+torch
+torchvision
+joblib
+scikit-learn
+accelerate
+bitsandbytes

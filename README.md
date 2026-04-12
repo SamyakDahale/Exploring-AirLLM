@@ -27,35 +27,5 @@ Action Item Extraction: Parses long, messy email threads to identify specific de
 
 Context-Aware Tone Shifting: Refines rough drafts into polished professional communications. It maintains the original intent while adjusting the vocabulary to match target tones like "Urgent," "Friendly," or "Persuasive."
 
-📂 Project Structure
-The codebase is built with modularity in mind to allow for easy scaling or model swapping:
 
-Plaintext
-E:\airLLM-proj\
-├── main.py              # Entry point and UI orchestration
-├── core/
-│   ├── engine.py        # AirLLM loading and inference logic
-│   └── prompts.py       # Centralized instruction library
-├── ui/
-│   └── components.py    # Reusable UI elements
-└── Models/              # Local directory for model weights (TinyLlama)
-⚙️ Setup & Installation
-Clone the repository:
 
-Bash
-git clone https://github.com/SamyakDahale/AirLLM.git
-cd AirLLM
-Install Dependencies:
-Ensure you have torch and accelerate installed, then run:
-
-Bash
-pip install airllm optimum streamlit joblib scikit-learn
-Model Configuration:
-Ensure your model weights are located in the Models/ directory or update the MODEL_PATH in core/engine.py.
-
-Run the App:
-
-Bash
-streamlit run main.py
-🛡️ Privacy
-Because this project uses AirLLM and local weights, your emails are never sent to third-party APIs. This makes it suitable for professionals handling confidential or proprietary information.

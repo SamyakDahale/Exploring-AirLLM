@@ -1,7 +1,7 @@
 This README is designed to explain the "why" and "how" of the project, focusing on the technical innovation of using AirLLM for local inference.
 
 InBox Lens: Privacy-First Local Email Intelligence
-InBox Lens is a modular AI-powered assistant that processes your sensitive email data entirely offline. By leveraging AirLLM and the TinyLlama-1.1B-Chat model, this tool provides high-level executive assistant capabilities without the data ever leaving your local machine.
+InBox Lens is a modular AI-powered assistant that processes your sensitive email data entirely offline. By leveraging AirLLM and the Meta-Llama-3-8B-Instruct model, this tool provides high-level executive assistant capabilities without the data ever leaving your local machine.
 
 🚀 The Core Technology: AirLLM
 The primary challenge of running Large Language Models (LLMs) locally is the massive VRAM requirement. Most consumer-grade GPUs cannot fit a model's entire weight set into memory.
